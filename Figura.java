@@ -20,7 +20,7 @@ public class Figura
     /**
      * Calcula el area de la figura
      */
-    public void calculaArea()
+    public void calcularArea()
     {
         System.out.println("No se como calcular el area");
     }
