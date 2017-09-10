@@ -8,6 +8,7 @@
 public class Figura
 {
     protected float area;
+    protected float perimetro;
     
     /**
      * Constructor de la clase figura
@@ -28,5 +29,15 @@ public class Figura
     public void imprimirArea()
     {
         System.out.println("El area de la figrua es: "+area);
+    }
+    
+    public void calcularPerimetro()
+    {
+        System.out.println("No se como calcular el area");
+    }
+    
+    public void imprimirPerimetro()
+    {
+        System.out.println("El perimetro de la figura es: "+perimetro);
     }
 }
