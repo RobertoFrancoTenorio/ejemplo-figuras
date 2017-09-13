@@ -5,7 +5,7 @@
  * @Autor: Roberto Franco
  * @version 1.0
  */
-public class Figura
+abstract public class Figura
 {
     protected float area;
     protected float perimetro;
@@ -21,20 +21,14 @@ public class Figura
     /**
      * Calcula el area de la figura
      */
-    public void calcularArea()
-    {
-        System.out.println("No se como calcular el area");
-    }
+    abstract public void calcularArea();
     
     public void imprimirArea()
     {
         System.out.println("El area de la figrua es: "+area);
     }
     
-    public void calcularPerimetro()
-    {
-        System.out.println("No se como calcular el area");
-    }
+    abstract public void calcularPerimetro();
     
     public void imprimirPerimetro()
     {
