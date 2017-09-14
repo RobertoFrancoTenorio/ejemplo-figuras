@@ -1,5 +1,7 @@
 /**
- * Esta clase representa en cuadrado y sus propiedades
+ * Clase que presenta el cadrado y sus propiedades
+ * @author: Roberto Franco Tenorio
+ * @version: 13/09/17
  */
 public class Cuadrado extends Figura
 {

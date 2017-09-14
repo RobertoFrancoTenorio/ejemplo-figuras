@@ -2,7 +2,7 @@
  * Esta clase es un super clase para representar las
  * caracteristicas comunes de muchas figuras
  * 
- * @Autor: Roberto Franco
+ * @author: Roberto Franco
  * @version 1.0
  */
 abstract public class Figura
@@ -23,13 +23,22 @@ abstract public class Figura
      */
     abstract public void calcularArea();
     
+    /**
+     * Muestra el area de la figura
+     */
     public void imprimirArea()
     {
         System.out.println("El area de la figrua es: "+area);
     }
     
+    /**
+     * Calcula el perimetro de la figura
+     */
     abstract public void calcularPerimetro();
     
+    /**
+     * Muestra el perimetro de la figura
+     */
     public void imprimirPerimetro()
     {
         System.out.println("El perimetro de la figura es: "+perimetro);
